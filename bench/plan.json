@@ -1,0 +1,10 @@
+[
+  {
+    "path": "active.mjs",
+    "reason": "lexical score 3"
+  },
+  {
+    "path": "PROJECT.md",
+    "reason": "lexical score 1"
+  }
+]

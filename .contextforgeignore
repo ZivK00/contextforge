@@ -1,0 +1,8 @@
+# Generated benchmark artifacts.
+#
+# These files quote the vocabulary of every task they were ever run against, so
+# lexical selection scores them very highly. Without this rule, running the
+# comparative benchmark on this repository selects its own previous output and
+# spends the entire budget on it. Generated results are evidence, not context.
+BENCHMARK_COMPARATIVE.json
+BENCHMARK_RESULTS.json

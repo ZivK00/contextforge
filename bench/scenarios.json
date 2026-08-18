@@ -1,0 +1,5 @@
+[
+  {"id":"targeted-reduction","purpose":"A targeted task where a bounded pack reduces source bytes while keeping the required file selected.","selectionQuery":"oauth retry timeout","selectionLimit":3,"maxBytes":512,"annotations":{"requiredFiles":["src/oauth.mjs"],"usefulFiles":["PROJECT.md"],"nonRelevantFiles":["notes/history.md"],"syntheticSecrets":1}},
+  {"id":"all-fits-overhead","purpose":"A small explicit plan that already fits; review metadata can increase output bytes.","plan":[{"path":"PROJECT.md","reason":"source of truth"},{"path":"src/policy.mjs","reason":"active policy"}],"maxBytes":4096,"annotations":{"requiredFiles":["PROJECT.md","src/policy.mjs"],"usefulFiles":[],"nonRelevantFiles":[],"syntheticSecrets":0}},
+  {"id":"critical-discovery","purpose":"A lexical selection task with a required constraint file whose filename does not repeat the task wording.","selectionQuery":"release credential rotation","selectionLimit":4,"maxBytes":2048,"annotations":{"requiredFiles":["config/constraints.mjs"],"usefulFiles":["README.md"],"nonRelevantFiles":["notes/retrospective.md"],"syntheticSecrets":0}}
+]

@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm test
+      - run: npm run benchmark
+      # Runs the comparative benchmark, including the generated-prose-heavy
+      # regression baseline. It emits results; it does not gate the build.
+      # That baseline is expected to report requiredRecall 0.00 until the
+      # selector changes, so failing CI on it would only pin the defect open.
+      - run: npm run benchmark:comparative

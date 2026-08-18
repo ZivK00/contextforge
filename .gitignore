@@ -1,0 +1,5 @@
+node_modules/
+coverage/
+*.contextforge-report.json
+*.contextforge-pack.md
+proofs/

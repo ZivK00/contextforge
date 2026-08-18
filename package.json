@@ -1,0 +1,21 @@
+{
+  "name": "contextforge",
+  "version": "0.1.0",
+  "description": "A dependency-free CLI for selecting, redacting, and compiling bounded context packs.",
+  "type": "module",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "bin": { "contextforge": "./bin/contextforge.mjs" },
+  "scripts": {
+    "test": "node --test",
+    "benchmark": "node bench/run.mjs",
+    "benchmark:comparative": "node bench/comparative.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}

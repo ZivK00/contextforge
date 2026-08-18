@@ -1,0 +1,5 @@
+[
+  { "path": "README.md", "reason": "project source of truth" },
+  { "path": "PROJECT_INDEX.md", "reason": "current commands and known risks" },
+  { "path": "src/target-file.ts", "reason": "active implementation" }
+]
